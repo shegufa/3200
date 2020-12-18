@@ -1,0 +1,125 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(../2.jpg);
+    height: 350vh;
+    background-size:cover;
+    background-position:center;
+}
+nav{
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+nav ul{
+    float:right;
+    margin-top: 30px;
+    margin-right:20px;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+}
+nav ul li.active a{
+    background-color: white;
+    color:black;
+}
+
+.title{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:rgba(194, 198, 211, 0.945);
+    font-size: 60px;
+}
+
+.dropdown {
+    position: relative;
+    list-style-type: none;
+    
+  }
+  
+.dropdown-content {
+    margin:10px;
+    margin-left:-1px;
+    display: none;
+    height: 230px;
+    width:230px;
+    position: absolute;
+    background-color:rgba(6, 29, 49, 0.842);
+    text-decoration:none;
+
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown ul li a{
+    padding:0px;
+    border: 1px solid transparent;
+    color:rgba(102, 133, 163, 0.897);
+}
+.dropdown ul li a:hover{
+   background-color:transparent;
+   color: white;
+}
+
+
+.formbody{
+    width:360px;
+    height: 50px;
+    padding: 20px;
+    margin:auto;
+}
+
+.loginForm{
+    position : relative;
+    background:rgb(28, 131, 109);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align:center;
+}
+.loginForm input{
+    font-family:  sans-serif;
+    outline:1;
+    background: white;
+    width:100%; 
+    border:0;
+    margin:0 0 15px;
+    padding:15px;
+    box-sizing:border-box;
+    font-size:14px;
+    color:rgba(37, 33, 33, 0.87);
+}
+
+.loginForm button{
+    font-family: sans-serif;
+    text-transform:uppercase;
+    outline:0;
+    background: rgb(73, 159, 216);
+    width:100%;
+    height:50px;
+    border:0;
+    color: #ffffff;
+    font-size: 14px;
+    cursor:pointer;
+}

@@ -1,0 +1,135 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(../2.jpg);
+    height: 350vh;
+    background-size:cover;
+    background-position:center;
+}
+nav{
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+nav ul{
+    float:right;
+    margin-top: 30px;
+    margin-right:20px;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+}
+nav ul li.active a{
+    background-color: white;
+    color:black;
+}
+
+.title{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:rgba(194, 198, 211, 0.945);
+    font-size: 60px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid white transparent;
+    padding:10px 30px;
+    color:rgba(112, 132, 184, 0.945);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    color:black;
+    background-color:white;
+}
+.dropdown {
+    position: relative;
+    list-style-type: none;
+    
+  }
+  
+.dropdown-content {
+    margin:10px;
+    margin-left:-1px;
+    display: none;
+    height: 230px;
+    width:230px;
+    position: absolute;
+    background-color:rgba(6, 29, 49, 0.842);
+    text-decoration:none;
+
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown ul li a{
+    padding:0px;
+    border: 1px solid transparent;
+    color:rgba(102, 133, 163, 0.897);
+}
+.dropdown ul li a:hover{
+   background-color:transparent;
+   color: white;
+}
+
+.ruetp{
+    margin-top: 600px;
+    height: 600px;
+    width: 600px;
+    vertical-align:inherit;
+ }
+ .ruet1{
+    display:inline-block;
+    margin-left: 50px;   
+ }
+ .head1{
+    font-size: 30px;
+    color:whitesmoke;
+ }
+ .head1 .btn{
+    font-size: 25px; 
+ }
+.csep{
+   margin-top: 200px;
+   height: 600px;
+   width: 600px;
+   vertical-align:inherit;
+}
+.cse{
+    display:inline-block;
+    margin-left: 50px;   
+}
+.head2{
+    font-size: 30px;
+    color:whitesmoke;
+}
+
+.head2 .btn{
+    font-size: 25px;
+}
